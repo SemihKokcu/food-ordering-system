@@ -16,7 +16,6 @@ import java.util.UUID;
 @NoArgsConstructor
 @Table(name = "orders")
 @Entity
-@IdClass(OrderItemEntityId.class) // for multi colum primary key
 public class OrderEntity {
 
     @Id

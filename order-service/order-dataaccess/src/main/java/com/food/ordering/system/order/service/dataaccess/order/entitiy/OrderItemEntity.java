@@ -15,6 +15,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @Table(name = "order_items")
 @Entity
+@IdClass(OrderItemEntityId.class) // for multi colum primary key
+
 public class OrderItemEntity {
 
     @Id
