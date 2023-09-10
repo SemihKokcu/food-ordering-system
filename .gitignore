@@ -8,4 +8,8 @@
 /order-service/order-messaging/target/
 /common/common-domain/target/
 infrastructure/docker-compose/volumes/**/**
-/target/
+/common/common-application/target/
+/infrastructure/kafka/kafka-config-data/target/kafka-config-data-1.0-SNAPSHOT.jar
+/infrastructure/kafka/kafka-consumer/target/kafka-consumer-1.0-SNAPSHOT.jar
+/infrastructure/kafka/kafka-model/target/kafka-model-1.0-SNAPSHOT.jar
+/infrastructure/kafka/kafka-producer/target/kafka-producer-1.0-SNAPSHOT.jar
