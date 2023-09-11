@@ -14,3 +14,4 @@
 /infrastructure/kafka/kafka-model/target/**/**
 /infrastructure/kafka/kafka-producer/target/**/**
 /customer-service/target/
+**/target/**/**
