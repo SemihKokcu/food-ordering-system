@@ -15,3 +15,4 @@
 /infrastructure/kafka/kafka-producer/target/**/**
 /customer-service/target/
 **/target/**/**
+/infrastructure/kafka/kafka-config-data/target/kafka-config-data-1.0-SNAPSHOT.jar
