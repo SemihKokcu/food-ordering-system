@@ -36,7 +36,7 @@ public class CancelOrderKafkaMessagePublisher implements OrderCancelledPaymentRe
 
             try {
                 PaymentRequestAvroModel paymentRequestAvroModel = orderMessagingDataMapper
-                        .orderCancelledEventToRequestAvroModel(domainEvent);
+                        .orderCancelledEventToPaymentRequestAvroModel(domainEvent);
 
                 kafkaProducer.send(orderServiceConfigData.getPaymentRequestTopicName(),
                         orderId,

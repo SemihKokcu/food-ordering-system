@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Component
-public class   PaymentRepositoryImpl implements PaymentRepository {
+public class PaymentRepositoryImpl implements PaymentRepository {
 
     private final PaymentJpaRepository paymentJpaRepository;
     private final PaymentDataAccessMapper paymentDataAccessMapper;

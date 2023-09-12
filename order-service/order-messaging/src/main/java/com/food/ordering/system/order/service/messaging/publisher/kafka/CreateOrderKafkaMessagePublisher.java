@@ -36,7 +36,7 @@ public class CreateOrderKafkaMessagePublisher implements OrderCreatedPaymentRequ
 
        try {
            PaymentRequestAvroModel paymentRequestAvroModel = orderMessagingDataMapper
-                   .orderCreatedEventToRequestAvroModel(domainEvent);
+                   .orderCreatedEventToPaymentRequestAvroModel(domainEvent);
 
            kafkaProducer.send(orderServiceConfigData.getPaymentRequestTopicName(),
                    orderId,

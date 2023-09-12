@@ -40,11 +40,11 @@ public class PaymentResponseKafkaListener implements KafkaConsumer<PaymentRespon
         messages.forEach(paymentResponseAvroModel -> {
             if (PaymentStatus.COMPLETED == paymentResponseAvroModel.getPaymentStatus()){
                 log.info("Processing successful payment for order id: {}",paymentResponseAvroModel.getOrderId());
-                paymentResponseMessageListener.paymentCompleted(orderMessagingDataMapper.paymentResponseAvroModalToPaymentResponse(paymentResponseAvroModel));
+                paymentResponseMessageListener.paymentCompleted(orderMessagingDataMapper.paymentResponseAvroModelToPaymentResponse(paymentResponseAvroModel));
             }
             else if(PaymentStatus.CANCELLED == paymentResponseAvroModel.getPaymentStatus()){
                 log.info("Processing cancelled payment for order id: {}",paymentResponseAvroModel.getOrderId());
-                paymentResponseMessageListener.paymentCancelled(orderMessagingDataMapper.paymentResponseAvroModalToPaymentResponse(paymentResponseAvroModel));
+                paymentResponseMessageListener.paymentCancelled(orderMessagingDataMapper.paymentResponseAvroModelToPaymentResponse(paymentResponseAvroModel));
 
             }
         });

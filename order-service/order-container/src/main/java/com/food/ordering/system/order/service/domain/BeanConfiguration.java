@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class BaseConfiguration {
+public class BeanConfiguration {
 
     //domain de spring başlatıcısı ya da bir notasyon eklemedik burada bean olarak beliritoyurz
     @Bean
