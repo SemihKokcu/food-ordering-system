@@ -1,5 +1,6 @@
 D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentOrderStatus.java
 D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\Product.java
+D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\CustomerAvroModel.java
 D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\OrderApprovalStatus.java
 D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantApprovalResponseAvroModel.java
 D:\Development\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantOrderStatus.java
